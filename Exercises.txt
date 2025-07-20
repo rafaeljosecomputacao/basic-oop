@@ -1,0 +1,147 @@
+Classes, attributes and methods
+
+Exercise 1:
+Write a program to read the names and salaries of two mechanics. Show the average
+salary of the mechanics.
+
+Example:
+First mechanic's details:
+Name: James Warner
+Salary: 6300.00
+Second mechanic's details:
+Name: Carl Jones
+Salary: 6700.00
+
+Average salary: 6500.00
+
+Exercise 2:
+Make a program to read a clerk's data (name, gross salary and tax). Show clerk's name
+and net salary.
+Increase the clerk's salary by a given percentage (only gross salary is affected by
+the percentage). Show the clerk's data again.
+
+Example:
+Name: Bob Smith
+Gross salary: 6000.00
+Tax: 1000.00
+
+Clerk: Bob Smith, $ 5000.00
+
+Enter the percentage to increase the salary: 10.0
+
+Updated data: Bob Smith, $ 5600.00
+
+Exercise 3:
+Make a program to read a student's name and his three grades for the year. Show the
+student's final grade for the year.
+Show whether the student passed or failed. If the student did not achieve 60 points
+and failed you must show how many points were missing.
+
+Example 1:
+Enter the student's name: Anne Williams
+Enter the student's three grades: 27.00 31.00 32.00
+
+Final grade: 90.00
+Passed
+
+Example 2:
+Enter the student's name: Norman Ford
+Enter the student's three grades: 17.00 20.00 15.00
+
+Final grade: 52.00
+Failed
+8.00 points missing
+
+Constructor, overloading and encapsulation
+
+Exercise 4:
+To register for a bank account, you must provide the account number, the account holder's
+name and the initial deposit amount the account holder deposited when opening the account.
+
+This initial deposit amount is optional. Once a bank account has been opened, the account
+number can never be changed. The account balance cannot be freely changed. The balance
+only increases through deposits and decreases through withdrawals. The deposit and
+withdrawal amount must be greater than zero. The withdrawal amount cannot be greater
+than the balance.
+
+You must create a program that registers an account, giving the option to enter the initial
+deposit amount or not. Then make a deposit and a withdrawal, displaying the account details
+after each transaction.
+
+Example:
+Enter the account number: 3250
+Enter the account holder: Max Cage
+Would you like to make an initial deposit (y/n)? y
+Enter the initial deposit amount: 500.00
+
+Account details:
+Number: 3250, Holder: Max Cage, Balance: $ 500.00
+
+Enter the deposit amount: 200.00
+Deposit successful
+Updated account data:
+Number: 3250, Holder: Max Cage, Balance: $ 700.00
+
+Enter the amount to withdraw: 300.00
+Withdrawal successful
+Updated account data:
+Number: 3250, Holder: Max Cage, Balance: $ 400.00
+
+Memory behavior, arrays and lists
+
+Exercise 5:
+A hotel has ten rooms for rent. The rooms are labeled 1 through 10.
+
+Write a program that starts with all rooms empty and then reads how many rooms will be
+rented. Record guest rentals. For each rental record, enter the guest's name, email
+address and room number. Print a report of all guests by room number.
+
+Example:
+How many rooms will be rented? 3
+
+Rent #1:
+Name: Oliver Wilson
+Email: oliver@email.com
+Room: 3
+
+Rent #2:
+Name: Harper Moore
+Email: harper@email.com
+Room: 1
+
+Rent #3:
+Name: Michael Miller
+Email: michael@email.com
+Room: 10
+
+Occupied rooms:
+1: Harper Moore, harper@email.com
+3: Oliver Wilson, oliver@email.com
+10: Michael Miller, michael@email.com
+
+Exercise 6:
+Create a program to register employee data (id, name and salary). Consider not repeating ids.
+
+Increase a specific employee's salary by a given percentage. The program should read an id and
+the percentage value. If the specified id doesn't exist, display a message and abort the
+operation. Display the list of employees.
+
+Example:
+How many employees will be registered? 2
+
+Employee #1:
+Id: 320
+Name: Ethan Davis
+Salary: 2000.00
+
+Employee #2:
+Id: 350
+Name: Joseph Johnson
+Salary: 3000.00
+
+Enter the id of the employee whose salary will be increased: 350
+Enter the percentage: 10.0
+
+List of employees:
+Id: 320, Name: Ethan Davis, Salary: $ 2000.00
+Id: 350, Name: Joseph Johnson, Salary: $ 3300.00
